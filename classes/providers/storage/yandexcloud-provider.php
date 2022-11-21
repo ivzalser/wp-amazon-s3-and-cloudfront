@@ -79,14 +79,14 @@ class YandexCloud_Provider extends AWS_Provider {
 	/**
 	 * @var array
 	 */
-	protected $regions = array(
+	protected static $regions = array(
 		'ru-central1'    => 'RU Central',
 	);
 
 	/**
 	 * @var string
 	 */
-	protected $default_region = 'ru-central1';
+	protected static $default_region = 'ru-central1';
 
 	/**
 	 * @var string
